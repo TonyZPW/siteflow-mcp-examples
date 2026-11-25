@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "vip.siteflow/uk-commercial-location",
+  "description": "24-hour modelled presence, 0-100 commercial site scoring, street-level pitch ratings, Non-Domestic EPC/MEES, IMD affluence, and flood/heritage checks across 359 Great Britain councils.",
+  "status": "active",
+  "repository": {
+    "url": "https://github.com/TonyZPW/siteflow-mcp-examples",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "websiteUrl": "https://siteflow.vip/docs",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://siteflow.vip/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional direct Bearer token (Bearer YOUR_SITEFLOW_API_KEY). Alternatively, authenticate via OAuth 2.1 + PKCE discovery at /.well-known/oauth-protected-resource.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

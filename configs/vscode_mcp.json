@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "siteflow_api_key",
+      "description": "SiteFlow UK Access Key (from https://siteflow.vip/prices)",
+      "password": true
+    }
+  ],
+  "servers": {
+    "siteflow-uk": {
+      "type": "http",
+      "url": "https://siteflow.vip/mcp",
+      "headers": {
+        "Authorization": "Bearer ${input:siteflow_api_key}"
+      }
+    }
+  }
+}

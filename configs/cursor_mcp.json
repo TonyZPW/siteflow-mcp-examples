@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "siteflow-uk": {
+      "url": "https://siteflow.vip/mcp",
+      "headers": {
+        "Authorization": "Bearer YOUR_SITEFLOW_API_KEY"
+      }
+    }
+  }
+}
