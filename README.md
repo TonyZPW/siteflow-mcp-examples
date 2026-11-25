@@ -1,5 +1,7 @@
 # SiteFlow UK — Remote MCP Server & Examples
 
+[![mcptry](https://mcptry.com/badge/vip.siteflow/uk-commercial-location.svg)](https://mcptry.com/servers/vip.siteflow/uk-commercial-location)
+[![Glama Connector](https://img.shields.io/badge/Glama-Verified%20Connector-16a34a)](https://glama.ai/mcp/connectors/vip.siteflow/site-flow-uk)
 [![Transport](https://img.shields.io/badge/MCP-Streamable%20HTTP-1f6f66)](https://siteflow.vip/docs)
 [![Auth](https://img.shields.io/badge/Auth-OAuth%202.1%20%2B%20PKCE%20%7C%20Bearer-17253a)](https://siteflow.vip/.well-known/oauth-protected-resource)
 [![Coverage](https://img.shields.io/badge/Coverage-359%20GB%20Councils-2563eb)](https://siteflow.vip/areas)
@@ -7,7 +9,8 @@
 
 Give **Claude**, **ChatGPT**, **Cursor**, **Claude Code**, **VS Code**, or your custom AI agents live commercial site-selection intelligence across all **359 local authorities in Great Britain** (England, Wales & Scotland).
 
-- **Live Remote MCP Endpoint (Streamable HTTP):** `https://siteflow.vip/mcp`
+- **Live Remote MCP Endpoint (Streamable HTTP):** `https://siteflow.vip/mcp` *(public `initialize` & `tools/list` discovery; OAuth 2.1 / Bearer required for `tools/call`)*
+- **Verified MCP Directories:** [Official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=vip.siteflow) (`vip.siteflow/uk-commercial-location@1.0.1`) · [Glama](https://glama.ai/mcp/connectors/vip.siteflow/site-flow-uk) · [MCPTRY](https://mcptry.com/servers/vip.siteflow/uk-commercial-location)
 - **OAuth 2.1 Protected Resource Metadata (RFC 9728):** `https://siteflow.vip/.well-known/oauth-protected-resource`
 - **OAuth 2.1 Authorization Server Metadata (RFC 8414):** `https://siteflow.vip/.well-known/oauth-authorization-server`
 - **Interactive Map (Free Preview):** https://siteflow.vip/people
