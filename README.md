@@ -10,6 +10,7 @@
 Give **Claude**, **ChatGPT**, **Cursor**, **Claude Code**, **VS Code**, or your custom AI agents live commercial site-selection intelligence across all **359 local authorities in Great Britain** (England, Wales & Scotland).
 
 - **Live Remote MCP Endpoint (Streamable HTTP):** `https://siteflow.vip/mcp` *(public `initialize` & `tools/list` discovery; OAuth 2.1 / Bearer required for `tools/call`)*
+- **Free 7-Day Sandbox Key (15 calls/day · No Card):** https://siteflow.vip/docs#free-trial
 - **Verified MCP Directories:** [Official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=vip.siteflow) (`vip.siteflow/uk-commercial-location@1.0.1`) · [Glama](https://glama.ai/mcp/connectors/vip.siteflow/site-flow-uk) · [MCPTRY](https://mcptry.com/servers/vip.siteflow/uk-commercial-location)
 - **OAuth 2.1 Protected Resource Metadata (RFC 9728):** `https://siteflow.vip/.well-known/oauth-protected-resource`
 - **OAuth 2.1 Authorization Server Metadata (RFC 8414):** `https://siteflow.vip/.well-known/oauth-authorization-server`
@@ -32,7 +33,7 @@ No local install or JSON editing required. SiteFlow implements **OAuth 2.1 + PKC
    ```text
    https://siteflow.vip/mcp
    ```
-3. Complete the OAuth prompt by pasting your SiteFlow Access Key (obtainable from [siteflow.vip/prices](https://siteflow.vip/prices)).
+3. Complete the OAuth prompt by pasting your SiteFlow Access Key — grab an instant **free 7-day sandbox key (15 calls/day, no card)** at [siteflow.vip/docs#free-trial](https://siteflow.vip/docs#free-trial), or upgrade anytime at [siteflow.vip/prices](https://siteflow.vip/prices).
 
 ### 2. Cursor / Claude Code / Windsurf (Bearer Access Key)
 
